@@ -1,5 +1,6 @@
 var btn = document.getElementById('btn-id');
 var mainDiv = document.querySelector('body');
+var navigation = document.getElementById('side-open');
 
 function onBtnclick (){
     
@@ -9,3 +10,9 @@ function onBtnclick (){
 // btn.onclick = onbtnclick;
 
 btn.addEventListener('click',onBtnclick);
+
+var show = navigation;
+ 
+function show() {
+    style.with="250px"
+}

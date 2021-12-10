@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+  background-color:antiquewhite;
+  height: auto;
+  width: auto;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button{
+    background-color:orchid;
+    color:aliceblue;
+    border: none;
+    font-size: large;
+    padding:10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color:rgb(192, 96, 189);
+    color:rgb(33, 75, 112);
+    border: 1px solid rgb(201, 63, 196);
+    border-radius: 20px;
+}
+
+
+

@@ -14,5 +14,5 @@ btn.addEventListener('click',onBtnclick);
 var show = navigation;
  
 function show() {
-    style.with="250px"
+    
 }
